@@ -1,0 +1,73 @@
+carro velocidade = 110km/h
+carro localizacaoInicial = RibeiraoPreto
+
+caminhao velocidade = 80km/h
+caminhao localizacaoInicial = Franca
+
+//A velocidade do carro por minuto é igual a:
+110km = 60mins
+x = 1min
+x =  1,83
+
+//A velocidade do caminhão por minuto é igual a:
+80km = 60mins
+y = 1 min
+y = 1,33
+
+//Sendo assim, temos 2 pedágios no caminho, no qual o caminhão vai perder 10 minutos,
+digamos que um pedágio no 30KM e outro no 50KM
+//O caminhao esta no KM 100, em Franca, e o Carro no KM 0 em Riberão Preto.
+
+//Passou 10 minutos.
+Carro
+10*1,83 = 18,30 km percorridos
+distancia rodovia RibeiraoPreto -> Franca carro: 18,30km
+
+Caminhão=
+10*1,33 = 13,30 km percorridos
+distancia rodovia Franca -> RibeiraoPreto: 100 -13,30 = 86.7km
+
+//Passou mais 10 minutos
+Carro
+10*1,83 = 18,30 km percorridos
+distancia rodovia RibeiraoPreto -> Franca carro: 36,60km
+*Carro passou o primeiro pedágio, mas não perde tempo por isso.
+
+Caminhão=
+10*1,33 = 13,30 km percorridos
+distancia Franca -> RibeiraoPreto caminhao: 86.7-13,30 = 73.4
+
+//Passou mais 10 minutos
+10*1,83 = 18,30 km percorridos
+distancia rodovia RibeiraoPreto -> Franca carro: 54,90km
+*Carro passou pelo segundo pedágio, mas não perde tempo por isso
+
+Caminhão=
+10*1,33 = 13,30 km percorridos
+distancia Franca -> RibeiraoPreto caminhao:  73.4-13,30 = 60.10km
+
+//Agora eles estão quase se encontrando.
+//Passou 2 minutos
+Carro
+2*1,83 = 3.66km percorridos
+distancia rodovia RibeiraoPreto -> Franca carro: 58.56km
+
+Caminhão
+2*1,33 = 2.66 km percorridos
+distancia Franca -> RibeiraoPreto caminhao:   60.10 - 2.66 k= 57.44
+
+//Passou 1 minuto
+Carro
+1*1,83 = 1,83km percorridos
+distancia rodovia RibeiraoPreto -> Franca carro: 58,56+1,83 = 60.39
+
+Caminhão:
+1*1,33 = 1,33 km percorridos
+distancia Franca -> RibeiraoPreto caminhao = 57,44 - 1,33 = 56.11
+
+Resposta:
+Considerando os pedágios nas posições KM 30 e outro no KM 50,e considerando que o caminhão está no KM 100 em Franca,
+e o carro no KM 0 em Ribeirao Preto.
+Entre 32 minutos e 33 minutos o caminhão e o carro vão se encontrar.
+E sendo assim, o carro estará mais próximo de finalizar seu trajeto do que o caminhão,
+o caminhão possui uma velocidade inferior por minuto, e ainda vai ter um atraso de 10 minutos com os pedágios.
